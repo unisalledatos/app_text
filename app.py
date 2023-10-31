@@ -2,7 +2,8 @@ import streamlit as st
 import pickle
 import numpy as np
 import sklearn
-import nltk.tokenizer
+import nltk
+nltk.downlowad('punkt')
 
 doc = open('model.pickle', 'rb')
 model = pickle.load(doc)
