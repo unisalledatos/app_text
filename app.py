@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import sklearn
+import nltk
 
 doc = open('model.pickle', 'rb')
 model = pickle.load(doc)
