@@ -6,7 +6,7 @@ import nltk
 nltk.download('punkt')
 import nltk.tokenize
 
-doc = open('model.pickle', 'r')
+doc = open('model.pickle', 'rb')
 model = pickle.load(doc)
 
 st.title('Text app')
