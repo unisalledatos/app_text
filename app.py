@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import sklearn
 import nltk
-nltk.downlowad('punkt')
+nltk.download('punkt')
 
 doc = open('model.pickle', 'rb')
 model = pickle.load(doc)
