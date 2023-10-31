@@ -4,7 +4,7 @@ import numpy as np
 import sklearn
 import nltk
 nltk.download('punkt')
-import nltk.tokenizer
+import nltk.tokenize
 doc = open('model.pickle', 'rb')
 model = pickle.load(doc)
 
