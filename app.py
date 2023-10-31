@@ -7,7 +7,7 @@ nltk.download('punkt')
 import nltk.tokenize
 
 doc = open('model.pickle', 'r')
-model = pickle.load('model.pickle')
+model = pickle.load(doc)
 
 st.title('Text app')
 text = st.input_text('Ingrese el texto')
