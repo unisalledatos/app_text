@@ -3,7 +3,6 @@ import pickle
 import numpy as np
 import sklearn
 import nltk.tokenize
-import gensim
 
 doc = open('model.pickle', 'rb')
 model = pickle.load(doc)
