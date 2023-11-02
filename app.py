@@ -6,6 +6,9 @@ import nltk
 nltk.download('punkt')
 import nltk.tokenize
 
+def tokenizer(text):
+  return text.split()
+
 doc = open('model.pickle', 'rb')
 model = pickle.load(doc)
 
