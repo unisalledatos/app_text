@@ -13,7 +13,7 @@ doc = open('model.pickle', 'rb')
 model = pickle.load(doc)
 
 st.title('Text app')
-text = st.input_text('Ingrese el texto')
+text = st.text_input('Ingrese el texto')
 text = np.array([text])
 if st.button('Identificar'):
   prediction = model.predict(text)[0]
